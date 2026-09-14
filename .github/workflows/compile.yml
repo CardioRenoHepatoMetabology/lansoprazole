@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5   # ИСПРАВЛЕНО: обновлено с @v4 до @v5 для поддержки Node.js 24
         with:
           fetch-depth: 0
 
